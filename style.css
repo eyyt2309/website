@@ -27,4 +27,64 @@
     color: #ffffff;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 50px;
+    padding-left: 0px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    width:500x;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    padding-top: 30px;
+    float:left;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 25px;
+    margin-top: 27px;
+    font-size: 20px;
+}
+
+ul li a{
+    text-decoration:none;
+    color: #ffffff;
+    font-family: Arial;
+    font-weight:bold;
+    transition: 0.4s ease-in-out;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+ul li a:hover{
+    color:#c99f61
+}
+
+.text{
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #f0f0f0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.text-box{
+    width: 1000px; /* Adjust width */
+    height: 700px; /* Adjust height */
+    background-color: white; /* White background */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    display: flex; /* Center content */
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto; /* Center box on the page */
+    border: 1px solid #ddd; /* Optional border */ 
+    position: relative;
+    top: 300px;
 }
