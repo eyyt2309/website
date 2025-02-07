@@ -8,7 +8,8 @@
     background: linear-gradient(to top, rgba(0,0,0,0)100%,rgba(0,0,0,0)100%), url(background.jpg);
     background-position: center;
     background-size: cover;
-    height: 109vh;
+    background-attachment: fixed;
+    height: 250vh;
 }
 
 .navbar{
@@ -127,4 +128,19 @@ ul li a:hover{
     text-align: center;
 }
 
+.skillset-box{
+    width: 1000px; /* Adjust width */
+    height: 350px; /* Adjust height */
+    background-color: white; /* White background */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    display: flex; /* Center content */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px auto; /* Center box on the page */
+    border: 1px solid #ddd; /* Optional border */ 
+    position: relative;
+    top: 200px;
+}
 
