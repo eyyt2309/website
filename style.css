@@ -25,11 +25,21 @@
 
 .logo{
     color: #ffffff;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 50px;
-    padding-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 33px;
+    padding-left:0px;
     float: left;
-    padding-top: 10px;
+    padding-top: 45px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    position: relative;
+    top: -23px;
+    left: -190px;
+
+}
+.top-bar{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to right, #3A6EA5, #6D9DC5);
 }
 
 .menu{
@@ -39,7 +49,7 @@
 }
 
 ul{
-    padding-top: 30px;
+    padding-top: 10px;
     float:left;
     display:flex;
     justify-content:center;
@@ -86,5 +96,5 @@ ul li a:hover{
     margin: 100px auto; /* Center box on the page */
     border: 1px solid #ddd; /* Optional border */ 
     position: relative;
-    top: 300px;
+    top: 200px;
 }
