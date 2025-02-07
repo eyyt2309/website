@@ -9,7 +9,7 @@
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    height: 250vh;
+    height: 350vh;
 }
 
 .navbar{
@@ -142,5 +142,10 @@ ul li a:hover{
     border: 1px solid #ddd; /* Optional border */ 
     position: relative;
     top: 200px;
+}
+
+.ui-diagram{
+    width:200px;
+    height: 400px;
 }
 
