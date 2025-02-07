@@ -149,3 +149,12 @@ ul li a:hover{
     height: 400px;
 }
 
+.badge{
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+}
+
+.image-container{
+    display:flex;
+}
