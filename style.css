@@ -93,32 +93,38 @@ ul li a:hover{
     display: flex; /* Center content */
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     margin: 100px auto; /* Center box on the page */
     border: 1px solid #ddd; /* Optional border */ 
     position: relative;
     top: 200px;
 }
+
+.profile-image {
+    width: 200px; /* Reduce the size */
+    height: 300px; /* Aspect ratio for the oval shape */
+    object-fit: cover; /* Ensures the image fits nicely */
+    border-radius: 50%; /* Makes it a circle */
+    margin-bottom: 20px; /* Add spacing below */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+    border: 2px solid #ddd; /* Optional border */
+}
+
+
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 .header{
     font-family: 'Playfair Display', serif;
     font-size: 50px;
     font-weight: bold;
     color:black;
-    margin-top: -580px;
-    padding-bottom: 0px;
+    padding-bottom: 50px;
 }
 
 .paragraph-text{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    width: 80%;
+    text-align: center;
 }
 
-.tester{
-    padding:15px;
-    margin:15px;
-    background-image: linear-gradient(to bottom, rgba(240, 255, 40, 1) 0%, rgba(240, 255, 40, 1) 100%), linear-gradient(to bottom, rgba(240, 40, 40, 1) 0%, rgba(240, 40, 40, 1) 100%);
-      background-clip: content-box, padding-box;
-  }
-  .wrapper{
-    background-color:gray;
-    display: flow-root;
-  }
+
