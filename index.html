@@ -1,64 +1,80 @@
 <!DOCTYPE html>
-<html lang = "en">
-    <head>
-        <title>Webpage Design</title>
-        <link rel ="stylesheet" href="style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<html lang="en">
+  <head>
+    <title>Webpage Design</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="top-bar">
+        <div class="navbar">
+          <div class="icon">
+            <h2 class="logo">Ethan Yew</h2>
+          </div>
+          <div class="menu">
+            <ul>
+              <li><a href="#about-me">About Me</a></li>
+              <li><a href="#skillset">Current Skillset</a></li>
+              <li><a href="#work">What I'm currently working on</a></li>
+              <li><a href="#contact">Contact Me!</a></li>
+            </ul>
+          </div>
+          <div class="text-box" id="about-me">
+            <img src="images\profile.jpg" class="profile-image" />
+            <p class="header">About Me</p>
+            <p class="paragraph-text">
+              Hi, I am a 2nd year Computer Science student from Nanyang
+              Technological University (NTU). I am particularly interested in
+              full stack development as well as leveraging my coding skills to
+              provide solutions to real world problem sets.
+            </p>
+          </div>
 
-    </head>
-    <body>
-        <div class ="main">
-            <div class="top-bar">
-                <div class="navbar">
-                    <div class="icon">
-                        <h2 class="logo">
-                            Ethan Yew
-                        </h2>
-                    </div>
-                    <div class="menu">
-                        <ul>
-                            <li><a href="#about-me">About Me</a></li>
-                            <li><a href="#skillset">Current Skillset</a></li>
-                            <li><a href="#work">What I'm currently working on</a></li>
-                            <li><a href="#contact">Contact Me!</a></li>
-                        </ul>
-                    </div>
-                    <div class="text-box" id="about-me">
-                        <img src="images\placeholder.jpg" class="profile-image">
-                        <p class="header">About Me</p>
-                        <p class="paragraph-text">Hi, I am a 2nd year Computer Science student from Nanyang Technological University (NTU). I am particularly interested in full stack development as well as leveraging my  coding skills to provide solutions to real world problem sets.</p>
-                    </div>
+          <div class="skillset-box" id="skillset">
+            <p class="header">Current Skillset</p>
+            <p class="paragraph-text">
+              Languages: C, C++, Python, Java, HTML, JavaScript, Kotlin(WIP)
+            </p>
+            <p class="paragraph-text">Frameworks: React, Node.js</p>
+          </div>
 
-                    <div class="skillset-box" id="skillset">
-                        <p class="header">Current Skillset</p>
-                        <p class="paragraph-text">Languages: C, C++, Python, Java, HTML, JavaScript, Kotlin(WIP)</p>
-                        <p class="paragraph-text">Frameworks: React, Node.js</p>
-                    </div>
+          <div class="text-box" id="work">
+            <p class="header">What I am currently working on</p>
+            <img src="images\UI Diagram.png" class="ui-diagram" />
+            <p class="paragraph-text">
+              A navigation / lifestyle application on android that is catered
+              towards cycling enthusiasts. It would be able to preferentially
+              use park-connector network paths (PCN) to enhance cyclist
+              experiences on the road. It will be done using Android Studio.
+            </p>
+          </div>
 
-                    <div class="text-box" id="work">
-                        <p class="header">What I am currently working on</p>
-                        <img src="images\UI Diagram.png" class="ui-diagram">
-                        <p class="paragraph-text">A navigation / lifestyle application on android that is catered towards cycling enthusiasts. It would be able to preferentially use park-connector network paths (PCN) to enhance cyclist experiences on the road. It will be done using Android Studio.</p>
-                    </div>
-
-                    <div class="text-box" id="contact">
-                        <p class="header">Contact Me!</p>
-                        <div class="image-container">
-                            <a href="https://github.com/eyyt2309" target="_blank" title="github">
-                                <img src="images\github.png" alt="github" class="badge">
-                            </a>
-                            <a href="https://www.linkedin.com/in/ethan-yew-51972434a/" target="_blank" title="LinkedIn">
-                                <img src="images\linkedin.png" alt="linkedIn" class="badge">
-                            </a>
-                        </div>
-                        <p class="paragraph-text">Email: eyew003@e.ntu.edu.sg</p>
-                    </div>
-
-                    
-                        
-                </div>
+          <div class="text-box" id="contact">
+            <p class="header">Contact Me!</p>
+            <div class="image-container">
+              <a
+                href="https://github.com/eyyt2309"
+                target="_blank"
+                title="github"
+              >
+                <img src="images\github.png" alt="github" class="badge" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/ethan-yew-51972434a/"
+                target="_blank"
+                title="LinkedIn"
+              >
+                <img src="images\linkedin.png" alt="linkedIn" class="badge" />
+              </a>
             </div>
+            <p class="paragraph-text">Email: eyew003@e.ntu.edu.sg</p>
+          </div>
         </div>
-
-    </body>
+      </div>
+    </div>
+  </body>
 </html>
